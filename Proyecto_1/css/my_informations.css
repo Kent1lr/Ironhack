@@ -1,0 +1,60 @@
+.COLORS {
+color:  #252323
+        #70798c
+        #f5f1ed
+        #dad2bc
+        #a99985;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form {
+    margin-top: 7vh;
+    padding: 10vh 0vw 10vh 0vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input {
+    margin: 1vh 0vw 1vh 0vw;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button input {
+    margin: 2%;
+}
+
+label {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+input {
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.thanks {
+    margin-top: 30vh;
+}
+
+.error {
+    margin-top: 30vh;
+    font-style: italic;
+}
+
+@media (min-width: 400px) {
+    
+}

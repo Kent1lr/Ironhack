@@ -1,0 +1,93 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #f5f1ed;
+}
+::-webkit-scrollbar-thumb {
+    background: #252323;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #252323;
+}
+
+.no_decoration {
+    text-decoration: none;
+    color: #252323;
+}
+
+body {
+    margin: auto;
+    padding: auto;
+    background-color: #f5f1ed;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 0vh 0vw 0vh 20px;
+    font-family: "Bungee Hairline", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: x-large;
+    color: #252323;
+    text-align: center;
+}
+
+.logo :hover {
+    color: #bd945f /*#f5f1ed*/;
+    text-shadow: 1px 0px #000, -1px 0px #000, 0px -1px #000, 0px 1px #000;
+}
+
+.header nav {
+    position: fixed;
+    height: 7vh;
+    width: 100%;
+    background: linear-gradient(90deg,#bd945f, #a3653b 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    
+    margin-right: 10px;
+}
+
+.header nav ul li {
+    display: flex;
+    align-items: center;
+    margin: 0vh 2vw 0vh 2vw;
+    color: #252323;
+}
+
+.header nav ul li :hover {
+    color: #dad2bc;
+}
+
+.nav_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.space-top {
+    margin-top: 7vh;
+}
+
+main {
+    background: fixed;
+    background-color: #f5f1ed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+}
