@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main-section">
+        <h1>CLUEDO</h1>
+        <div class="board">
+            <div class="card-wrapper">
+                <img data-name="Mrs. white" data-type="person" src="./imgs/clue-people1.png">
+            </div>
+            <div class="card-wrapper">
+                <img data-name="Mrs. Peacock" data-type="person" src="./imgs/clue-people2.png">
+            </div>
+            <div class="card-wrapper">
+                <img data-name="Colonel Mustard" data-type="person" src="./imgs/clue-people3.png">
+            </div>
+            <div class="card-wrapper">
+                <img data-name="Axe" data-type="weapon" src="./imgs/clue-weapon1.png">
+            </div>
+            <div class="card-wrapper">
+                <img data-name="Wrench" data-type="weapon" src="./imgs/clue-weapon2.png">
+            </div>
+            <div class="card-wrapper">
+                <img data-name="Rope" data-type="weapon" src="./imgs/clue-weapon3.png">
+            </div>
+            <div class="card-wrapper">
+                <img data-name="Lounge" data-type="room" src="./imgs/clue-room1.png">
+            </div>
+            <div class="card-wrapper">
+                <img data-name="Dining Room" data-type="room" src="./imgs/clue-room2.png">
+            </div>
+            <div class="card-wrapper">
+                <img data-name="Kitchen" data-type="room" src="./imgs/clue-room3.png">
+            </div>
+        </div>
+
+        <div class="chosen-cards">
+            <h2>Cartas elegidas</h2>
+            <div class="chosen-cards-wrapper">
+                <div class="card-wrapper">
+                    <img id="chosen-person"  >
+                </div>
+                <div  class="card-wrapper">
+                    <img id="chosen-weapon"  >
+                </div>
+                <div  class="card-wrapper">
+                    <img id="chosen-room"  >
+                </div>
+            </div>
+        </div>
+
+        <button onclick="checkAnswer()">TRY</button>
+
+        <div class="respuesta">
+            <h2>Respuesta</h2>
+            <p id="aquiPonemosLaRespuesta"></p>
+            <p id="aquiPonemosLaSolucion"></p>
+            <p id="aquiPonemosElResultado"></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

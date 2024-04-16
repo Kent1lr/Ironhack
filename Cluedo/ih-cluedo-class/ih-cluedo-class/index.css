@@ -1,0 +1,44 @@
+.main-section{
+    width: 500px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.board {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:10px;
+    padding: 10px;    
+}
+.card-wrapper{
+    width: 30%;
+    height: 220px;
+    border-radius: 20px;
+    overflow:hidden;
+}
+.card-wrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.chosen-cards-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;    
+    gap:10px;
+}
+.chosen-cards .card-wrapper{
+    border: 1px solid lightsalmon;
+}
+button{
+    width: fit-content;
+    margin: 0 auto;
+}
+#aquiPonemosElResultado{
+    font-size: 50px;
+}
